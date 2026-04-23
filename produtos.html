@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Delivery</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="produtos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header
+      class="bg-white flex justify-between py-8 px-40 sticky top-0 z-50 shadow-lg"
+    >
+      <img src="./assets/Logo.svg" alt="Logo coffee delivery" />
+      <div class="flex gap-3">
+        <div class="bg-[#EBE5F9] rounded-md flex items-center gap-1 p-2">
+          <img src="./assets/local.png" alt="icone localização" />
+          <span>Porto Alegre, RS</span>
+        </div>
+        <button class="bg-[#F1E9C9] p-2 rounded-md">
+          <img src="./assets/carrinho amarelo.png" alt="icone carinho" />
+        </button>
+      </div>
+    </header>
+    <main class="px-40">
+      <section>
+        <h1
+          class="text-[32px] font-(family-name:--font-baloo) font-extrabold mb-[54px]"
+        >
+          Nossos cafés
+        </h1>
+        <div class="flex justify-warp flex-wrap gap-8">
+          <div
+            class="bg-[#F3F2F2] w-[256px] relative pt-25 text-center rounded-tr-4x1 rounded-bl-4x1 px-5"
+          >
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Tradicional</span
+            >
+            <h2
+              class="font-(family-name:--font-baloo) font-bold text-xl mt-4 mb-2"
+            >
+              Expresso Tradicional
+            </h2>
+            <p class="text-sm text-[#8D8686] mb-8">
+              O tradicional café feito com água quente e grãos moídos
+            </p>
+            <div class="flex justify-between items-center">
+              <span class="text-sm"
+                >R$<span
+                  class="text-2x1 font-(family-name:--font-baloo) font-extrabold"
+                >
+                  9,90</span
+                ></span
+              >
+              <div class="flex gap-3 items-center">
+                <div class="bg-[#E6E5E5] p-2 rounded-md">
+                  <button class="text-[#8047F8] w-3.5">-</button>
+                  <span>1</span>
+                  <button class="text-[#8047F8]">+</button>
+                </div>
+                <button class="bg-[#4B2995] p-2 rounded-md w-9 h-9">
+                  <img class="w-5" src="./assets/carrinho.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-1.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px] gap-10"
+              >Tradicional</span
+            ><span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Com leite</span
+            >
+            <h2
+              class="font-(family-name:--font-baloo) font-bold text-xl mt-4 mb-2"
+            >
+              Café com Leite
+            </h2>
+            <p class="text-sm text-[#8D8686] mb-8">
+              Meio a meio de expresso tradicional com leite vaporizado
+            </p>
+            <div class="flex justify-between items-center">
+              <span class="text-sm"
+                >R$<span
+                  class="text-2x1 font-(family-name:--font-baloo) font-extrabold"
+                >
+                  9,90</span
+                ></span
+              >
+              <div class="flex gap-3 items-center">
+                <div class="bg-[#E6E5E5] p-2 rounded-md">
+                  <button class="text-[#8047F8] w-3.5">-</button>
+                  <span>1</span>
+                  <button class="text-[#8047F8]">+</button>
+                </div>
+                <button class="bg-[#4B2995] p-2 rounded-md w-9 h-9">
+                  <img class="w-5" src="./assets/carrinho.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-2.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Tradicional</span
+            ><span>Com leite</span>
+            <h2>Mocaccino</h2>
+            <p>Café expresso com calda de chocolate, pouco leite e espuma</p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-3.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Tradicional</span
+            ><span>Com leite</span>
+            <h2>Latte</h2>
+            <p>
+              Uma dose de café expresso com o dobro de leite e espuma cremosa
+            </p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-4.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Especial</span
+            ><span>Com leite</span>
+            <h2>Chocolate Quente</h2>
+            <p>Bebida feita com chocolate dissolvido no leite quente e café</p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-5.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Tradicional</span
+            >
+            <h2>Expresso Cremoso</h2>
+            <p>Café expresso tradicional com espuma cremosa</p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-6.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Tradicional</span
+            ><span>Com leite</span>
+            <h2>Capuccino</h2>
+            <p>
+              Bebida com canela feita de doses iguais de café, leite e espuma
+            </p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-7.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Especial</span
+            ><span>Alcoólico</span><span>Gelado</span>
+            <h2>Cubano</h2>
+            <p>
+              Drink gelado de café expresso com rum, creme de leite e hortelã
+            </p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-8.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Tradicional</span
+            ><span>Gelado</span>
+            <h2>Expresso Gelado</h2>
+            <p>Bebida preparada com café expresso e cubos de gelo</p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-9.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Tradicional</span
+            ><span>Com leite</span>
+            <h2>Macchiato</h2>
+            <p>Café expresso misturado com um pouco de leite quente e espuma</p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-10.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Especial</span
+            >
+            <h2>Havaiano</h2>
+            <p>Bebida adocicada preparada com café e leite de coco</p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-13.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Tradicional</span
+            >
+            <h2>Expresso Americano</h2>
+            <p>Expresso diluído, menos intenso que o tradicional</p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-11.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Especial</span
+            >
+            <h2>Árabe</h2>
+            <p>Bebida preparada com grãos de café árabe e especiarias</p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+          <div class="bg-[#F3F2F2] w-[256px] relative pt-25">
+            <img
+              class="absolute right-18 -top-6"
+              src="./assets/Coffee-12.svg"
+              alt=""
+            />
+            <span
+              class="text-[#C47F17] px-2 py-1 bg-[#F1E9C9] rounded-Full uppercase font-bold text-[10px]"
+              >Especial</span
+            ><span>Alcoólico</span>
+            <h2>Irlandês</h2>
+            <p>Bebida a base de café, uísque irlandês, açúcar e chantilly</p>
+            <span>R$ 9,90</span>
+            <div>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button><img src="./assets/carrinho.png" alt="" /></button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
